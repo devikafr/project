@@ -1,6 +1,7 @@
 * {
   margin: 0;
 }
+
 /*navbar*/
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
@@ -42,7 +43,7 @@ footer{
   /*banner buttons*/
   .btn-bordered {
     position: relative;
-    margin-top:-150px;
+    margin-top:-130px;
     color: #fff;
     font-size:1rem;
     background: none !important;
@@ -53,6 +54,7 @@ footer{
 /*contact page*/
 #banner{
   height: 300px;
+  margin-top: -10px;
 }
 .text1{
   display: block;
@@ -96,10 +98,31 @@ figcaption{
 }
 #about .card{
   box-shadow: 4px 4px 4px #888888;
+  padding: 10px;
+}
+#about1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#about2{
+  margin-bottom: 20px;
 }
 /*profile page*/
 #card .card{
   box-shadow: 4px 4px 4px 4px #888888;
   margin-top: 5px;
-  margin-bottom: 10px;
+
 }
+.card-deck #card{
+  box-shadow: 4px 4px 4px 4px #888888;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+/*div.bg {
+  background: url('front1.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}*/
