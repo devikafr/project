@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+}
+/*navbar*/
+#mainNav {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  transition: background-color 0.2s ease;
+}
+.navbar{
+  color: #495057;
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+nav #nav{
+  font-family: 'Sofia', cursive;
+}
+#mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
+  color: #f4623a;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active {
+  color: #f4623a !important;
+}
+
+/*footer*/
+footer{
+      background-color: #262b2f;
+      padding: 35px 0;
+      color: #ececec;
+  }
+  P#footer{
+    font-family: 'Great Vibes', cursive;
+    margin-left: 10px;
+  }
+  /*social media icons*/
+  #mini{
+
+    border-color: #faaa5e;
+    color: #faaa5e
+  }
+
+  /*banner buttons*/
+  .btn-bordered {
+    position: relative;
+    margin-top:-150px;
+    color: #fff;
+    font-size:1rem;
+    background: none !important;
+    border: 1px solid #ececec;
+    height: 35px;
+    text-transform: uppercase;
+  }
+/*contact page*/
+#banner{
+  height: 300px;
+}
+.text1{
+  display: block;
+  position: absolute;
+  text-align: center;
+  color: #ececec;
+  font-size: 2.4rem;
+  padding-top: 40px;
+  font-family: 'Cormorant Garamond', serif;
+}
+/*profile page*/
+.avatar {
+  border: 0.3rem solid rgba(#fff, 0.3);
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+  max-width: 9rem;
+}
+figcaption{
+  font-family: 'Petrona', serif;
+}
+.nounderline{
+  text-decoration: none !important;
+  color: #fff !important;
+}
+/*about page*/
+.col-12{
+  padding: 10px;
+}
+#photosRow1{
+  margin-top: 20px;
+}
+#photosRow2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+ #about img{
+  transition: all 1s;
+}
+#about img:hover{
+  transform:scale(1.1);
+}
+#about .card{
+  box-shadow: 4px 4px 4px #888888;
+}
+/*profile page*/
+#card .card{
+  box-shadow: 4px 4px 4px 4px #888888;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
